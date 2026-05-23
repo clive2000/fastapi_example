@@ -1,3 +1,4 @@
+# FastAPI example app exposing a single POST /items/ endpoint.
 from fastapi import FastAPI
 from pydantic import BaseModel
 
