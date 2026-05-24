@@ -8,6 +8,7 @@ class Item(BaseModel):
     price: float
     tax: float | None = None
 
+# Initialize the FastAPI application instance
 app = FastAPI()
 
 
