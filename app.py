@@ -13,5 +13,6 @@ app = FastAPI()
 
 @app.post("/items/")
 async def create_item(item: Item):
+    # Log the received item for debugging.
     print(f'item: {item}')
     return item
